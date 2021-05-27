@@ -1,0 +1,261 @@
+.bg-dark2 {
+  background: #282C34;
+}
+
+.container-fluid {
+  padding: 0 !important;
+  overflow-x: hidden;
+}
+
+.sidebar {
+  border-right: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  padding: 2rem 0.5rem;
+  align-items: center;
+  background: #20232A;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 26%;
+}
+.sidebar__alt {
+  color: #9C9C9C;
+  width: 80%;
+  margin-top: auto;
+}
+.sidebar nav {
+  width: 100%;
+  margin-top: 4rem;
+}
+.sidebar nav ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.sidebar nav ul li.active {
+  background: rgba(97, 218, 251, 0.1);
+  border-radius: 9in;
+}
+.sidebar nav ul li.active h4 {
+  color: #61dafb;
+}
+.sidebar nav ul li.active svg path {
+  stroke: #61dafb;
+}
+.sidebar nav ul li {
+  width: 77%;
+  margin: 0 auto;
+  margin-bottom: 0.3rem;
+  cursor: pointer;
+}
+.sidebar nav ul li a {
+  padding: 1rem 1rem;
+  width: 100%;
+  display: flex;
+  text-decoration: none;
+  color: #9C9C9C;
+  align-items: center;
+  cursor: pointer;
+}
+.sidebar nav ul li a h4 {
+  font-size: 1.2rem;
+  margin: 0;
+  margin-left: 0.8rem;
+  user-select: none !important;
+}
+.sidebar nav ul li a img {
+  width: 20px;
+}
+.sidebar nav ul li a svg {
+  width: 20px;
+  height: 20px;
+  margin-left: auto;
+}
+
+.cek-sola {
+  position: relative;
+  left: -1px;
+}
+
+header {
+  background: #20232A;
+  display: flex;
+  align-items: center;
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  padding: 0 1rem;
+}
+header .burger {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  cursor: pointer;
+}
+header .burger:hover .line {
+  width: 100% !important;
+}
+header .burger .line {
+  width: 100%;
+  height: 3px;
+  background-color: #61dafb;
+}
+header .burger .line:nth-child(2) {
+  transition: 0.2s;
+  width: 80%;
+  margin-left: auto;
+}
+header h2 {
+  color: #61dafb;
+  margin: 0;
+  margin-left: 10px;
+  user-select: none !important;
+}
+
+.sifirla {
+  padding: 0;
+}
+
+.index-container {
+  padding-top: 7rem;
+  height: 100vh;
+}
+.index-container .hosgeldiniz {
+  color: white;
+  font-size: 3rem;
+}
+.index-container p.caption {
+  color: #9C9C9C;
+  font-size: 1.1rem;
+}
+
+.bilgi {
+  background: rgba(97, 218, 251, 0.1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  padding: 0.9rem;
+  transition: 0.2s;
+  display: flex;
+  margin-right: 1rem;
+  align-items: center;
+}
+.bilgi:hover {
+  cursor: pointer;
+  background: rgba(97, 218, 251, 0.2);
+}
+.bilgi div {
+  margin-left: 1rem;
+}
+.bilgi h2 {
+  color: white;
+  font-size: 1.4rem;
+  margin: 0;
+}
+.bilgi h3 {
+  color: #9C9C9C;
+  font-size: 1.3rem;
+}
+
+.img-list {
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  margin-left: 0.5rem;
+  align-items: stretch;
+  justify-content: space-between;
+}
+.img-list img {
+  width: 80px;
+  height: 80px;
+}
+
+.oda-list-item {
+  width: 70%;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.06);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 11px;
+  padding: 1rem;
+  display: flex;
+  margin-bottom: 1rem;
+}
+.oda-list-item .sag {
+  margin-left: auto;
+}
+.oda-list-item .sag .main-image {
+  width: 300px;
+  height: 250px;
+}
+.oda-list-item .sag .main-image img {
+  width: 300px;
+  height: 250px;
+}
+.oda-list-item__title {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.oda-list-item__status {
+  display: flex;
+  margin-top: 1rem;
+}
+.oda-list-item .c-r {
+  color: #FF6565;
+}
+.oda-list-item .c-r .ball {
+  background: #FF6565;
+}
+.oda-list-item .c-g {
+  color: #65FF90;
+}
+.oda-list-item .c-g .ball {
+  background: #65FF90;
+}
+.oda-list-item__status-item {
+  background: #565656;
+  border-radius: 9in;
+  padding: 0.3rem 0.9rem;
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+}
+.oda-list-item__status-item .ball {
+  width: 16px;
+  height: 16px;
+  border-radius: 9in;
+  margin-right: 5px;
+}
+
+.satis-title {
+  color: #61dafb;
+  font-weight: 500;
+}
+.satis-title span {
+  font-weight: 400;
+  color: white;
+}
+
+.container {
+  animation-name: cont;
+  animation-duration: 0.2s;
+}
+
+@keyframes cont {
+  from {
+    transform: scale(0.9);
+  }
+}
+.container {
+  min-height: 100vh;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */
